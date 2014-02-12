@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2FF05005-9DE8-8659-552B-443CD43074C8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\HOTween\_Demo\HOTweenDemoBrain.cs" />
+     <Compile Include="Assets\Main.cs" />
+     <Compile Include="Assets\MobileMovieTexture\AssetStream.cs" />
+     <Compile Include="Assets\MobileMovieTexture\MobileMovieTexture.cs" />
+     <Compile Include="Assets\MobileMovieTexture\TestMobileTexture.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeyBinding.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggle.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\EventDelegate.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\RealTime.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenHeight.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenWidth.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteData.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Animation\SplineAnimator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Animation\SplineAnimatorClosestPoint.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Animation\SplineAnimatorCustomValue.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Design\SplineAutoAlign.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Physics\SplineGravitySimulator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineDefaultMatrices.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineDistanceFunctions.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineExtensions.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineGizmos.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineInterpolator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMathUtils.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMesh.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineNode.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineSegment.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\ActiveCue.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\Audio3DSetting.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\BaseAutomaticDuck.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\BaseEventReceiveAction.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\BaseWingroveAudioSource.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\BeatSyncSource.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\DuckOnEvent.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\EventGroup.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\EventReceiveAction.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\InstanceLimiter.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\LevelBasedAutomaticDuck.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\LifetimeEventTrigger.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\ParameterModifier.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\SimpleAutomaticDuck.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\StreamLoader.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\WingroveAudioSource.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\WingroveGroupInformation.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\WingroveListener.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\WingroveMixBus.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\WingroveResourcesAudioSource.cs" />
+     <Compile Include="Assets\WingroveAudio\Core\WingroveRoot.cs" />
+     <Compile Include="Assets\WingroveAudio\NGUIExtensions\NGUIClickEvents.cs" />
+     <Compile Include="Assets\WingroveAudio\NGUIExtensions\NGUIHoverEvents.cs" />
+     <Compile Include="Assets\WingroveAudio\PlaymakerActions\PostWingroveAudioEvent.cs" />
+     <Compile Include="Assets\WingroveAudio\PlaymakerActions\WaitForGroupToFinish.cs" />
+     <Compile Include="Assets\__behaviours\AlphabetBook\AlphabetBookBackground.cs" />
+     <Compile Include="Assets\__behaviours\AlphabetBook\AlphabetBookCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\AlphabetBook\AlphabetBookInformation.cs" />
+     <Compile Include="Assets\__behaviours\AlphabetRoom\AlphabetRoomGrid.cs" />
+     <Compile Include="Assets\__behaviours\AlphabetRoom\AlphabetRoomToggleCaseButton.cs" />
+     <Compile Include="Assets\__behaviours\AssetBundles\AssetAddressList.cs" />
+     <Compile Include="Assets\__behaviours\AssetBundles\AssetBundleLoader.cs" />
+     <Compile Include="Assets\__behaviours\AssetBundles\AssetReference.cs" />
+     <Compile Include="Assets\__behaviours\AssetBundles\SavedAssetBundles.cs" />
+     <Compile Include="Assets\__behaviours\AudioBank.cs" />
+     <Compile Include="Assets\__behaviours\AudioBankManager.cs" />
+     <Compile Include="Assets\__behaviours\AutoBackground.cs" />
+     <Compile Include="Assets\__behaviours\BingoKeywords\BingoButton.cs" />
+     <Compile Include="Assets\__behaviours\BingoKeywords\BingoKeywordsCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\BingoKeywords\BingoKeywordsPlayer.cs" />
+     <Compile Include="Assets\__behaviours\BingoKeywords\BingoSlot.cs" />
+     <Compile Include="Assets\__behaviours\Blackboards\HideBlackboard.cs" />
+     <Compile Include="Assets\__behaviours\Blackboards\HideTripleBlackboard.cs" />
+     <Compile Include="Assets\__behaviours\BootScene.cs" />
+     <Compile Include="Assets\__behaviours\Bubble\BubbleCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Bubble\BubbleMapCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Bubble\MovingWidget.cs" />
+     <Compile Include="Assets\__behaviours\Bubble\PermaMove.cs" />
+     <Compile Include="Assets\__behaviours\Bubble\SetBubbleGame.cs" />
+     <Compile Include="Assets\__behaviours\Celebration\CelebrationCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Celebration\ExplosionLetter.cs" />
+     <Compile Include="Assets\__behaviours\Celebration\RainLetter.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenuLetters\LettersChallengeMenuAudio.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenuLetters\LettersChallengeMenuParticles.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenuLetters\LettersStarBar.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenuLetters\PushSceneToStack.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenus\ChallengeMenuCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenus\PipPlane.cs" />
+     <Compile Include="Assets\__behaviours\ChallengeMenus\StarBar.cs" />
+     <Compile Include="Assets\__behaviours\CharacterPopper.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentButton.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentCamera.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentKeyword.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentLetter.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentMenuSelect.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentSet.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ChooseContentWord.cs" />
+     <Compile Include="Assets\__behaviours\ChooseContent\ContentInformation.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\ChoosePictureButton.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\ChooseUser.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\ChooseUserButton.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\ChooseUserCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\CreateUserCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\CreateUserOffButton.cs" />
+     <Compile Include="Assets\__behaviours\ChooseUser\CreateUserOnButton.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\CollectionRoomCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\CollectionRoomDraggable.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\CollectionRoomItemList.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\PlacedDraggable.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\SaveScreenshotButton.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\SelectBackgroundButton.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\TrashcanButton.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoom\WebCamTex.cs" />
+     <Compile Include="Assets\__behaviours\CollectionRoomLettters\LetterCollectionRoomItemList.cs" />
+     <Compile Include="Assets\__behaviours\CompleteTheSentence\CompleteSentenceCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\CompleteTheSentence\CompleteSentenceEnd.cs" />
+     <Compile Include="Assets\__behaviours\CompleteTheSentence\CompleteSentenceWord.cs" />
+     <Compile Include="Assets\__behaviours\CorrectPath\CorrectPathOralBlendingCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\CorrectPath\CorrectPathSettings.cs" />
+     <Compile Include="Assets\__behaviours\CorrectPictureGame\CorrectPictureGameCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\DataHelpers.cs" />
+     <Compile Include="Assets\__behaviours\DownloadHelper.cs" />
+     <Compile Include="Assets\__behaviours\DragToContainer\DragToContainerCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\DragToContainer\DragToCrocodile.cs" />
+     <Compile Include="Assets\__behaviours\EditorAudioVolume.cs" />
+     <Compile Include="Assets\__behaviours\EyeSpy\EyeSpyAlliterationCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\EyeSpy\EyeSpyBlendingCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\EyeSpy\EyeSpyWord.cs" />
+     <Compile Include="Assets\__behaviours\FeedTroll\FeedTrollLettersCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\GamePlayer\GamePlayer.cs" />
+     <Compile Include="Assets\__behaviours\GreenScenes\PipPadGreenCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\GreenScenes\SpellingPadGreenCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Helpers\TransformHelpers.cs" />
+     <Compile Include="Assets\__behaviours\JoinLetters\JoinLettersCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\JoinLetters\JoinLettersPlayer.cs" />
+     <Compile Include="Assets\__behaviours\JoinLetters\LetterPictureJoinableDrag.cs" />
+     <Compile Include="Assets\__behaviours\JoinWords\JoinWordsCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\JoinWords\WordPictureJoinableDrag.cs" />
+     <Compile Include="Assets\__behaviours\Journey\AudioReference.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyAudioReference.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyInformation.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyMap.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyMapCamera.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyMapCollider.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyPip.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyPoint.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyPointEditor.cs" />
+     <Compile Include="Assets\__behaviours\Journey\JourneyPointVarSetter.cs" />
+     <Compile Include="Assets\__behaviours\Journey\SkipJourneyGame.cs" />
+     <Compile Include="Assets\__behaviours\Journey\TweenReceiver.cs" />
+     <Compile Include="Assets\__behaviours\Journey\VoyageBook.cs" />
+     <Compile Include="Assets\__behaviours\Journey\VoyageLetterButton.cs" />
+     <Compile Include="Assets\__behaviours\KeywordAnagrams\KeywordAnagramCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\KeywordRoom\KeywordRoomGrid.cs" />
+     <Compile Include="Assets\__behaviours\LearnPhoneme\LearnPhonemeCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\LearnPhoneme\LearnPhonemeLetter.cs" />
+     <Compile Include="Assets\__behaviours\LearnPhoneme\LearnPhonemeWord.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\DisableCollectionRoomCollider.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\GoldCoinBar.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\LetterBankGrid.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\LetterBankLetter.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\LetterBankParticleSystem.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\TripleBlackboard.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\UnlockItem.cs" />
+     <Compile Include="Assets\__behaviours\LetterBank\UnlockableItem.cs" />
+     <Compile Include="Assets\__behaviours\LetterPictureGame\LetterPictureGameCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\LetterPictureGame\LetterPictureGamePlayer.cs" />
+     <Compile Include="Assets\__behaviours\LetterPictureGame\LetterSelectionButton.cs" />
+     <Compile Include="Assets\__behaviours\LetterRoom\LetterRoomCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\LetterRoom\LetterRoomGrid.cs" />
+     <Compile Include="Assets\__behaviours\LevelMenu\LevelMenuCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\LevelMenu\LevelMenuCustomButton.cs" />
+     <Compile Include="Assets\__behaviours\LevelMenu\LevelMenuSetButton.cs" />
+     <Compile Include="Assets\__behaviours\LoaderHelpers.cs" />
+     <Compile Include="Assets\__behaviours\MainMenu\MainMenuCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\MainMenu\PipMainMenu.cs" />
+     <Compile Include="Assets\__behaviours\MainMenuStories\ChooseStoryType.cs" />
+     <Compile Include="Assets\__behaviours\MissingPhoneme\MissingPhonemeCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\NavMenu\CallNavMenu.cs" />
+     <Compile Include="Assets\__behaviours\NavMenu\NavMenu.cs" />
+     <Compile Include="Assets\__behaviours\NewChallengeMenuPlayButton.cs" />
+     <Compile Include="Assets\__behaviours\NewChallengeMenuScreenLogic.cs" />
+     <Compile Include="Assets\__behaviours\NonsenseSpelling\NonsenseSpellingCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\PhonemeSwap\PhonemeSwapCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\CharacterSelection.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\GameMenu.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\LifeSprite.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\LivesDisplay.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\PictureGameCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\PictureGamePlayer.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\ProgressScoreBar.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\ScreenSetUp.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\SelectDifficultyButton.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\SelectNumberPlayersButton.cs" />
+     <Compile Include="Assets\__behaviours\PictureGame\WordSelectionButton.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\ImageBlackboard.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\PipPadBackButton.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\PipPadBehaviour.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\PipPadPhoneme.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\PipPadPhonemeSubButton.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\PlayWordButton.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\SetPipPadLanguage.cs" />
+     <Compile Include="Assets\__behaviours\PipPad\ShowPipPadForWord.cs" />
+     <Compile Include="Assets\__behaviours\ScoreDance\SpawnStar.cs" />
+     <Compile Include="Assets\__behaviours\ScoreDance\TransitionToChallengeMenu.cs" />
+     <Compile Include="Assets\__behaviours\ScoreScreen.cs" />
+     <Compile Include="Assets\__behaviours\SelectGameButton.cs" />
+     <Compile Include="Assets\__behaviours\SensibleSpelling\SensibleSpellingCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Shared\BennyAudio.cs" />
+     <Compile Include="Assets\__behaviours\Shared\Blackboard.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ChangeContentType.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ChangeImageOnClick.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ChangeableBennyAudio.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ClickEvent.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ClickableWidget.cs" />
+     <Compile Include="Assets\__behaviours\Shared\DistortGUIElement.cs" />
+     <Compile Include="Assets\__behaviours\Shared\DoubleAudioLabel.cs" />
+     <Compile Include="Assets\__behaviours\Shared\Draggable.cs" />
+     <Compile Include="Assets\__behaviours\Shared\DraggableLabel.cs" />
+     <Compile Include="Assets\__behaviours\Shared\EventBennyAudio.cs" />
+     <Compile Include="Assets\__behaviours\Shared\GoldCoin.cs" />
+     <Compile Include="Assets\__behaviours\Shared\LetterButton.cs" />
+     <Compile Include="Assets\__behaviours\Shared\LetterButtonBlocker.cs" />
+     <Compile Include="Assets\__behaviours\Shared\MatchPosition.cs" />
+     <Compile Include="Assets\__behaviours\Shared\PermaTween.cs" />
+     <Compile Include="Assets\__behaviours\Shared\PlaySimpleSpriteAnim.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ScaleOnOffBehaviour.cs" />
+     <Compile Include="Assets\__behaviours\Shared\Star.cs" />
+     <Compile Include="Assets\__behaviours\Shared\StarParticles.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ThrobGUIElement.cs" />
+     <Compile Include="Assets\__behaviours\Shared\TimbleTombleSign.cs" />
+     <Compile Include="Assets\__behaviours\Shared\ToggleAudioOnClick.cs" />
+     <Compile Include="Assets\__behaviours\Shared\TriggerTracker.cs" />
+     <Compile Include="Assets\__behaviours\Shared\Troll.cs" />
+     <Compile Include="Assets\__behaviours\Shared\UnloadResourcesOnStart.cs" />
+     <Compile Include="Assets\__behaviours\Shared\UnloadUnusedAssetsOnStart.cs" />
+     <Compile Include="Assets\__behaviours\Shared\UnlockLettersBoard.cs" />
+     <Compile Include="Assets\__behaviours\Shared\WordNotFound.cs" />
+     <Compile Include="Assets\__behaviours\SillySensible\DraggableWord.cs" />
+     <Compile Include="Assets\__behaviours\SillySensible\SillySensibleCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SillySensible\SillySensibleShowPad.cs" />
+     <Compile Include="Assets\__behaviours\SillySensibleLetters\DraggableLetter.cs" />
+     <Compile Include="Assets\__behaviours\SillySensibleLetters\SillySensibleLetterCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SoundButtonToWord\SoundButtonToWordCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SoundButtonsBasic\SoundButtonBasicCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SoundButtonsBasic\SplattableBug.cs" />
+     <Compile Include="Assets\__behaviours\SoundButtonsToWord\SoundButtonsToWordCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SpellingPad\PlayWordSpellingButton.cs" />
+     <Compile Include="Assets\__behaviours\SpellingPad\SpellingPadBehaviour.cs" />
+     <Compile Include="Assets\__behaviours\SpellingPad\SpellingPadPhoneme.cs" />
+     <Compile Include="Assets\__behaviours\SpellingPad\SpellingPadPhonemeSubButton.cs" />
+     <Compile Include="Assets\__behaviours\SplatGame\SelectSkinButton.cs" />
+     <Compile Include="Assets\__behaviours\SplatGame\SplatGameCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SplatGame\SplatGameSkin.cs" />
+     <Compile Include="Assets\__behaviours\SplatGame\SplattableLetter.cs" />
+     <Compile Include="Assets\__behaviours\SplatRatKeywords\SplatRatKeyCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SplatRatKeywords\SplatRatKeyPlayer.cs" />
+     <Compile Include="Assets\__behaviours\SplatRatKeywords\SplattableRatKeyword.cs" />
+     <Compile Include="Assets\__behaviours\SplatTheRatGame\PanelReference.cs" />
+     <Compile Include="Assets\__behaviours\SplatTheRatGame\SplatRatGameCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\SplatTheRatGame\SplatRatGamePlayer.cs" />
+     <Compile Include="Assets\__behaviours\SplatTheRatGame\SplattableRatLetter.cs" />
+     <Compile Include="Assets\__behaviours\StartEndStory\SetClassicStoryLevel.cs" />
+     <Compile Include="Assets\__behaviours\StartEndStory\SetTransitionSceneClassicStoryLevel.cs" />
+     <Compile Include="Assets\__behaviours\StartEndStory\StoryBanner.cs" />
+     <Compile Include="Assets\__behaviours\StartEndStory\StoryBookCover.cs" />
+     <Compile Include="Assets\__behaviours\StartEndStory\StoryMenuBackground.cs" />
+     <Compile Include="Assets\__behaviours\StartEndStory\StoryTexture.cs" />
+     <Compile Include="Assets\__behaviours\StoriesStats\DraggablePanelLabel.cs" />
+     <Compile Include="Assets\__behaviours\StoriesStats\HideStatsInfoPanel.cs" />
+     <Compile Include="Assets\__behaviours\StoriesStats\ShowStatsInfoPanel.cs" />
+     <Compile Include="Assets\__behaviours\StoriesStats\StoriesStatsCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\BookBrowserDifficultyButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\BuyAllButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\BuyBookButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\BuyButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\DownloadProgressInformation.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\DownloadProgressMonitor.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\InfoPanelBox.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\InfoPanelHideButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\NewStoryBrowserBookButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\NewStoryBrowserBookPopulator.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\ShowInfoButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\Spider.cs" />
+     <Compile Include="Assets\__behaviours\StoryBrowser\StoryTypeLabel.cs" />
+     <Compile Include="Assets\__behaviours\StoryReader\SetStoryLanguage.cs" />
+     <Compile Include="Assets\__behaviours\StoryReader\StoryPageDisplayer.cs" />
+     <Compile Include="Assets\__behaviours\StoryReader\StoryPlayLineButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryReader\StoryReaderLogic.cs" />
+     <Compile Include="Assets\__behaviours\StoryReader\TurnPageButton.cs" />
+     <Compile Include="Assets\__behaviours\StoryReader\TurnSwipeDetect.cs" />
+     <Compile Include="Assets\__behaviours\StringHelpers.cs" />
+     <Compile Include="Assets\__behaviours\Testing\LoadTexFromResources.cs" />
+     <Compile Include="Assets\__behaviours\Testing\LogTriggerEnterExit.cs" />
+     <Compile Include="Assets\__behaviours\Testing\LogWhenClicked.cs" />
+     <Compile Include="Assets\__behaviours\Testing\SpellingPadTest.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\PathFollower.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTCallItemGrid.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTDraggable.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTFood.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTGoldCoinBar.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTInformation.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTItemLoader.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTPip.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTPipBelly.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTPlacedAnimated.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTPlacedDraggable.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTSettings.cs" />
+     <Compile Include="Assets\__behaviours\TimbleTomble\TTTroll.cs" />
+     <Compile Include="Assets\__behaviours\UI\AtoBPressButton.cs" />
+     <Compile Include="Assets\__behaviours\UI\CollectionRoomBoard.cs" />
+     <Compile Include="Assets\__behaviours\UI\DragRecenter.cs" />
+     <Compile Include="Assets\__behaviours\UI\LetterCollectionRoomBoard.cs" />
+     <Compile Include="Assets\__behaviours\UI\OffOnClick.cs" />
+     <Compile Include="Assets\__behaviours\UI\PlayBlinkRandomly.cs" />
+     <Compile Include="Assets\__behaviours\UI\RetryButton.cs" />
+     <Compile Include="Assets\__behaviours\UI\RotateConstantly.cs" />
+     <Compile Include="Assets\__behaviours\UI\SimpleSpriteAnim.cs" />
+     <Compile Include="Assets\__behaviours\UI\TransitionScreen.cs" />
+     <Compile Include="Assets\__behaviours\UI\TransitionToSceneButton.cs" />
+     <Compile Include="Assets\__behaviours\UI\TweenOnOffBehaviour.cs" />
+     <Compile Include="Assets\__behaviours\UI\WobbleGUIElement.cs" />
+     <Compile Include="Assets\__behaviours\UI\WrapDragPanel.cs" />
+     <Compile Include="Assets\__behaviours\UnitProgress\SplineLetter.cs" />
+     <Compile Include="Assets\__behaviours\UnitProgress\UnitProgressCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\Video\VideoCoordinator.cs" />
+     <Compile Include="Assets\__behaviours\WordBank\WordBankGrid.cs" />
+     <Compile Include="Assets\__behaviours\WordBank\WordBankWord.cs" />
+     <Compile Include="Assets\__behaviours\WordRoom\WordRoomButton.cs" />
+     <Compile Include="Assets\__behaviours\WordRoom\WordRoomGrid.cs" />
+     <Compile Include="Assets\__behaviours\ladybug.cs" />
+     <Compile Include="Assets\__buildSystem\BuildConfiguration.cs" />
+     <Compile Include="Assets\__buildSystem\PipGameBuildSettings.cs" />
+     <Compile Include="Assets\__buildSystem\SettingsHolder.cs" />
+     <Compile Include="Assets\__system\DataSaver.cs" />
+     <Compile Include="Assets\__system\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\__system\GameDataBridge.cs" />
+     <Compile Include="Assets\__system\InstantiateOnMissing.cs" />
+     <Compile Include="Assets\__system\SessionInformation.cs" />
+     <Compile Include="Assets\__system\Singleton.cs" />
+     <Compile Include="Assets\__system\SkillProgressInformation.cs" />
+     <Compile Include="Assets\__system\SpawningHelpers.cs" />
+     <Compile Include="Assets\__system\UserStoriesStats.cs" />
+     <Compile Include="Assets\_services\AlTypes.cs" />
+     <Compile Include="Assets\_services\DataTable.cs" />
+     <Compile Include="Assets\_services\HTTPService.cs" />
+     <Compile Include="Assets\_services\SqliteDatabase.cs" />
+     <Compile Include="Assets\_services\UnixDate.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Examples\JSONExamples.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Examples\XMLExamples.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\EscapeString.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\FlashCompatibleConvert.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\FlashCompatibleTextReader.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\JSONField.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\JSONInStream.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\JSONNode.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\JSONOutStream.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\JSONParser.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\JSONSerializer.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\XMLInStream.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\XMLNode.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\XMLOutStream.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\XMLParser.cs" />
+     <Compile Include="Assets\_services\XML-JSON Serialization\Src\XMLSerializer.cs" />
+     <Compile Include="Assets\dbAccess.cs" />
+     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\_textures\font\pipfont-56pt.txt" />
+     <None Include="Assets\_textures\font\pipfont-20pt.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGBChromaKey.shader" />
+     <None Include="Assets\_textures\font\pipfont_108pt.txt" />
+     <None Include="Assets\__newScenes\NewJourney\GameNames.txt" />
+     <None Include="Assets\ResourcesBase\TimbleTomble\Resources\BackgroundPrices.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\_textures\font\pipfont-44pt.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\HOTween\readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\MobileMovieTexture\Instructions.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\ResourcesBase\TimbleTomble\Resources\StickerPrices.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Desat.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\_textures\font\pipfont-72pt.txt" />
+     <None Include="Assets\_textures\font\pipfont_112pt.txt" />
+     <None Include="Assets\Plugins\GoKit\easing\easeEquationsLicense.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\_textures\Stories\StoryBrowser\spider\-orthello-config.xml" />
+     <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGBTrans.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\_textures\font\pipfont-122pt.txt" />
+     <None Include="Assets\_textures\font\pipfont-38pt.txt" />
+     <None Include="Assets\___ToUpload\AssetVersions.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\_textures\Animations\growing_elements\flower\frames.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\_textures\Stories\StoryBrowser\ladybug\-orthello-config.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.0.2.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\_services\XML-JSON Serialization\Readme.txt" />
+     <None Include="Assets\SuperSplinesPro\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\_textures\font\pipfont-white.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\_textures\font\pipfont-84pt.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\_textures\font\pipfont_96pt.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGB.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGBSplitAlpha.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\_textures\font\pipfont.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>Assets\HOTween\Plugins\HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data">
+ <HintPath>Assets\Plugins\Mono.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Sqlite">
+ <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.SqliteClient">
+ <HintPath>Assets\Plugins\Mono.Data.SqliteClient.dll</HintPath>
+ </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>Assets\Plugins\Prime31\P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>Assets\Plugins\System.Configuration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>Assets\Plugins\System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.EnterpriseServices">
+ <HintPath>Assets\Plugins\System.EnterpriseServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security">
+ <HintPath>Assets\Plugins\System.Security.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{63DC34FD-B336-714A-0A7C-84311777F388}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
